@@ -85,17 +85,18 @@ public class CLI {
                 }
                 System.out.printf("hexadecimal: %.0f %n", octadecimal);
             case 4:}
+        /** decimal a hexadecimal */
         Scanner teclado = new Scanner(System.in);
                 System.out.print("Introduce un número decimal: ");
                 int decimals = teclado.nextInt();
                 teclado.close();
-        char digitosH[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
+        char digitosx[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
         String hexadecimal2 = "";
-        int resto, aux = decimals;
+        int residuo, aux = decimals;
 
         while(aux>0){
-            resto = aux % 16;
-            hexadecimal2 = digitosH[resto] + hexadecimal2;
+            residuo = aux % 16;
+            hexadecimal2 = digitosx[residuo] + hexadecimal2;
             aux /= 16;
         }
         System.out.printf("%n%nMétodo 2 -> Decimal: %d, Hexadecimal: %s", decimals, hexadecimal2);
