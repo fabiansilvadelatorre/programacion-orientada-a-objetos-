@@ -71,7 +71,7 @@ public class Proces {
         }
         System.out.println("\nEl trimestre que más se vendio (sin importar el sabor del chocolate) fue: " + arreglo[0][ind] + "(" + sumTrimestre[ind] + ")");
         /**
-         imprime el valor de el timestre mas vendido general  sin que afecte el chocolate
+         imprime el valor de el timestre mas vendido general  sin que afecte el chocolate:)
          */
     }
 }
