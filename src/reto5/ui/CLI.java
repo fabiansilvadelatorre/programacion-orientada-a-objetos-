@@ -7,7 +7,8 @@ import java.util.Scanner;
 
 import static reto5.proces.Proces.obtenerPalabra;
 
-public class CLI {public static void MuestraElMenu() {
+public class CLI {
+    public static void MuestraElMenu() {
     Scanner teclado = new Scanner(System.in);
     String entrada = "";
 
@@ -55,4 +56,7 @@ public class CLI {public static void MuestraElMenu() {
         teclado.close();
     }
 }
+
+    public static void ejecutar() {
+    }
 }
