@@ -1,5 +1,4 @@
-package edu.fabian.silva.reto6.process;
-import java.util.Locale;
+package edu.fabian.silva.reto_6.process;
 import java.util.Scanner;
 public class JuegoAhorcado {
     public static String letra = "";

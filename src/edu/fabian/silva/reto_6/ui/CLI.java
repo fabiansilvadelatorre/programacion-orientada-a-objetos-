@@ -1,6 +1,6 @@
-package edu.fabian.silva.reto6.ui;
+package edu.fabian.silva.reto_6.ui;
 
-import edu.fabian.silva.reto6.process.JuegoAhorcado;
+import edu.fabian.silva.reto_6.process.JuegoAhorcado;
 
 import java.util.Scanner;
 
